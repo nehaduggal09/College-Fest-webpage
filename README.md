@@ -1,19 +1,28 @@
-# College Fest Webpage
+# College Fest Event Website
 
-A simple college fest webpage developed using HTML. This project provides information about a college festival, including events, schedules, and registration details through a well-structured layout.
+A simple and interactive College Fest Event Website developed using HTML, CSS, and JavaScript. This project provides information about a college fest, including event details, schedule, rules, and a registration form for participants.
 
 ## Features
-- Home section
-- Event details
-- Schedule information
-- Registration section
-- Simple and user-friendly interface
 
-## Technology Used
-- HTML5
+* Event Name Section
+* About Event Section
+* Event Schedule (Ordered List)
+* Rules and Guidelines (Unordered List)
+* Registration Form
+* Responsive and User-Friendly Design
+* Interactive Features with JavaScript
+* Footer Section
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
 
 ## Purpose
-This project was created to practice HTML and learn how to design and structure a webpage for a college event.
+
+This project was created to practice front-end web development concepts and improve skills in designing interactive and responsive websites.
 
 ## Author
-Neha Duggal
+
+**Neha Duggal**
