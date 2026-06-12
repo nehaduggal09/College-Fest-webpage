@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>College Fest </title>
+    <link rel="stylesheet" href="collegefest-style.css">
 </head>
 <body>
     <header>
@@ -10,7 +11,7 @@
     
 
     <h2>About Event</h2>
-    <p>
+    <p id="paragraph">
         TechFest 2026 is the annual college festival that brings together
         students from different departments to participate in technical,
         cultural, and fun activities. The event includes coding contests,
@@ -44,13 +45,13 @@
 
     <form>
         <label>Full Name:</label><br>
-        <input type="text" required><br><br>
+        <input type="text" id="nameInput" required><br><br>
 
         <label>Email:</label><br>
-        <input type="email" required><br><br>
+        <input type="email" id="emailInput" required><br><br>
 
         <label>Department:</label><br>
-        <input type="text"><br><br>
+        <input type="text" id="departmentInput"><br><br>
 
         <label>Year:</label><br>
         <select>
@@ -59,12 +60,12 @@
             <option>3rd Year</option>
             <option>4th Year</option>
         </select><br><br>
-
-        <input type="submit" value="Register">
+        <button type="button" onclick="hideemail()">Hide Email</button>
+        <button type="button" onclick="processform()">Register</button>
     </form>
 
     <hr>
-
+    <h1 id="count">0 participants have registered till now.</h1>   
     
     <footer>
         <p>
@@ -72,6 +73,6 @@
             Contact: techfest@hietcollege.edu
         </p>
     </footer>
-
+<script src="domscipt2.js"></script>
 </body>
 </html>
